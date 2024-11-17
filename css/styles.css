@@ -4,9 +4,9 @@
   /* Colors */
   --hue-color: 169;
   --first-color: hsl(var(--hue-color), 26%, 75%);
-  --first-color-second: hsl(166, 30%, 56%);
-  --first-color-alt: hsl(167, 43%, 64%);
-  --first-color-lighter: hsl(167, 13%, 43%);
+  --first-color-second: hsl(25, 100%, 40%);
+  --first-color-alt: hsl(25, 86%, 43%);
+  --first-color-lighter: hsl(38, 83%, 50%);
   --title-color: hsl(var(--hue-color), 8%, 15%);
   --text-color: hsl(var(--hue-color), 8%, 45%);
   --text-color-light: hsl(var(--hue-color), 8%, 65%);
