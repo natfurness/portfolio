@@ -1,9 +1,13 @@
-title: John Doe # your name (or website title) here
+title: Natalie Furness # your name (or website title) here
 logo: "/images/logo.png?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
-  First description 
+  Welcome!
   <br><br>
-  Second description 
+  I am the GIS Specialist at Western Washington University and help
+  manage the Spatial Institute. I am a biogeographer interested in 
+  understanding the role of human interaction and climate change on
+  physical landscapes and patterns. I use a variety of methods,
+  mostly drawn from GIS, remote sensing, and ecology.
   <br><br>
   <a href="https://www.linkedin.com/in/example/">View My LinkedIn Profile</a> 
   
