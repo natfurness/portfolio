@@ -2,8 +2,8 @@
 A snapshot of current projects. More work is available upon request.
 
 ---
-[Project 1 Title](/acpage.md)
-<img src="images/Salmon.pdf"/>
+[Active Channel Mapping](/acpage.md)
+[View on Google Drive](https://drive.google.com/file/d/1oHRjoNnQ2XkIGvyIZ-nyYqxnL9hSOD9t/view?usp=sharing)]
 
 ---
 [Project 2 Title](/pdf/sample_presentation.pdf)
