@@ -2,7 +2,7 @@
 
 **Project description:** Data from this project can be found at the [Puget Sound Partnership geospatial data hub](https://data-wa-psp.hub.arcgis.com/search?tags=active%2520channel).
 
-<img src="pdf/Salmon Summit 2025 Poster.pdf"/>
+<img src="images/Salmon.pdf"/>
 
 ### LiDAR and Aerial Imagery Example
 
