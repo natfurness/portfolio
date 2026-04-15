@@ -7,5 +7,5 @@ A snapshot of current projects. More work is available upon request.
 
 ---
 ## [Flow Line Modeling with Suquamish Tribe](/flowline.md)
-<img src="images/flowline"/>
+<img src="images/flowline.png"/>
 
