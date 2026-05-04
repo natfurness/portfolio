@@ -6,6 +6,7 @@ A snapshot of current projects. More work is available upon request.
   <div class ="item">Item 1</div>
   <div class="item">Item 2</div>
   <div class="item">Item 3</div>
+</div>
 
 grid-container {
   display: grid;
