@@ -115,7 +115,7 @@ h1{
 
 section#Contact{
     padding: 3em min(2em,15%);
-    background-color: var(--color-2);
+    background-color: var(--color-1);
     text-align: center;
 
 }
@@ -133,7 +133,7 @@ section p{
 input[type=text], select, textarea {
   width: 100%; /* Full width */
   padding: 12px; /* Some padding */ 
-  border: 1px solid #ccc; /* Gray border */
+  border: 1px solid var(--color-2); /* Gray border */
   border-radius: 4px; /* Rounded borders */
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   box-sizing: border-box; /* Make sure that padding and width stays in place */
@@ -161,12 +161,103 @@ input[type=submit]:hover {
 /* Add a background color and some padding around the form */
 .container {
   border-radius: 5px;
-  background-color: #f2f2f2;
+  background-color: var(--color-1);
   padding: 20px;
 }
 
 section#my-work {
-    background-color: var(--color-3);
+    background-color: var(--color-1);
+}
+
+.container {
+    padding: 2rem;
+}
+
+.carousel {
+    width: 100%;
+    overflow-x: auto;
+    margin: 3em auto;
+    display: flex;
+    gap: 1em;
+    scroll-behavior: smooth;
+    anchor-name: --carousel;
+    scroll-snap-type: x mandatory;
+    scroll-marker-group: after;
+}
+
+.carousel::scroll-marker-group {
+    display: flex;
+    justify-content: center;
+    gap: .5em;
+}
+
+.card::scroll-marker {
+    content: ' ';
+    height: 1em;
+    width: 1em;
+    background-color: var(--secondary-color);
+    border-radius: 50%;
+    opacity: 50%;
+    transition: opacity ease 250ms;
+}
+
+.card::scroll-marker:hover {
+    opacity: 1;
+}
+
+.card::scroll-marker:target-current {
+    background-color: var(--primary-color);
+    opacity: 100%;
+}
+
+.carousel::-webkit-scrollbar {
+    display: none;
+}
+
+.carousel::scroll-button(right), .carousel::scroll-button(left)  {
+    content: '→';
+    border: none;
+    background-color: var(--secondary-color);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2.5em;
+    color: white;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    padding-bottom: 0.3em;
+    cursor: pointer;
+    position: fixed;
+    position-anchor: --carousel;
+    position-area: right center;
+    translate: -50%
+}
+
+.carousel::scroll-button(left) {
+    content: '←';
+    position-area: left center;
+    translate: 50%
+}
+
+.carousel::scroll-button(right):disabled, .carousel::scroll-button(left):disabled {
+    opacity: 0.5;
+    cursor: auto;
+}
+
+.card {
+    scroll-snap-align: start;
+    flex: 0 0 35rem;
+    height: 500px;
+    background-color: var(--color-1);
+    padding: 1em;
+    border-radius: .5em;
+    text-align: center;
+    align-content: center;
+}
+
+@media(max-width: 500px) {
+    .card {
+        flex: 0 0 100%;
+    }
 }
 
 .grid-container {
@@ -285,4 +376,3 @@ footer a:hover {
         font-size: 1.5rem;
     }
 }
-
